@@ -1,0 +1,7 @@
+四大基类：InputStream OutputStream Reader Writer
+分类1：输入流用于读数据（InputStream Reader）
+              输出流用于写数据（OutputStream Writer)
+分类2：字符流以字符（16位/字符）为单位 Reader Writer
+               字节流以字节（8位/字节）为单位   InputStream OutputStream
+分类3：处理流是将数据源包装成处理流后（两端的源数据可以是不现类型的流，只要是同样的封装就可）
+              节点流 是数据源与节点直接联系 （必须两端是相同类型的流）          
