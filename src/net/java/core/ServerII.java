@@ -66,7 +66,7 @@ class ServerThreadII extends Thread{
 					String userAndMsg = getRealMsg(line);
 					String user = userAndMsg.split(Protocol.SPLIT_SIGN)[0];
 					String msg = userAndMsg.split(Protocol.SPLIT_SIGN)[1];
-					ServerII.usermap.get(user).println("i am " + user + ", " + msg);
+					ServerII.usermap.get(user).println("i am " + ServerII.usermap.getKeyByValue(ps) + ", " + msg);
 				}else if(line.startsWith(Protocol.MSG_ROUND) && line.endsWith(Protocol.MSG_ROUND)){
 					String msg = getRealMsg(line);
 					String user =  ServerII.usermap.getKeyByValue(ps);
