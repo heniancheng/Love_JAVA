@@ -11,7 +11,7 @@ public class PrintStreamTest {
 	public static void main(String[] args){
 		PrintStream ps = null;
 		try{
-			FileOutputStream fos = new FileOutputStream(PublicConstants.FILE_SRC_PATH + "printstream.txt");
+			FileOutputStream fos = new FileOutputStream(PublicConstants.FILE_SRC_PATH + "printstream.in");
 			ps = new PrintStream(fos);
 			String str = new String("普通字符串");
 			ps.println(str);

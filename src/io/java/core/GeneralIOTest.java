@@ -18,7 +18,7 @@ public class GeneralIOTest {
 		
 		try{
 			InputStreamReader reader = new InputStreamReader(System.in);
-			ps = new PrintStream(new FileOutputStream(PublicConstants.FILE_SRC_PATH + "general.txt"));
+			ps = new PrintStream(new FileOutputStream(PublicConstants.FILE_SRC_PATH + "general.in"));
 			br = new BufferedReader(reader);
 			String buf = null;
 			while((buf = br.readLine()) !=null){

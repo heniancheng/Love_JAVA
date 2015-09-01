@@ -16,12 +16,12 @@ public class FileOutputStreamTest {
 		FileWriter fos = null;
 		
 		try{
-			//fis = new FileInputStream(PublicConstants.FILE_SRC_PATH + "data.txt");
-			//fos = new FileOutputStream(PublicConstants.FILE_SRC_PATH + "samedata.txt");
+			//fis = new FileInputStream(PublicConstants.FILE_SRC_PATH + "data.in");
+			//fos = new FileOutputStream(PublicConstants.FILE_SRC_PATH + "copydata.in");
 			//byte[] buf = new byte[1024];
 			
-			fis = new FileReader(PublicConstants.FILE_SRC_PATH + "data.txt");
-			fos = new FileWriter(PublicConstants.FILE_SRC_PATH + "samedata.txt");
+			fis = new FileReader(PublicConstants.FILE_SRC_PATH + "data.in");
+			fos = new FileWriter(PublicConstants.FILE_SRC_PATH + "copydata.in");
 			char[] buf = new char[1024];
 			
 			int hasRead = 0;

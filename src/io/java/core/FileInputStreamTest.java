@@ -16,10 +16,10 @@ public class FileInputStreamTest {
 	
 	public static void main(String[] args) throws IOException{
 		
-		//FileInputStream fis = new FileInputStream(FILE_SRC_PATH + "data.txt");
+		//FileInputStream fis = new FileInputStream(FILE_SRC_PATH + "data.in");
 		//byte[] buf = new byte[1024];
 		
-		FileReader fis = new FileReader(PublicConstants.FILE_SRC_PATH + "data.txt");
+		FileReader fis = new FileReader(PublicConstants.FILE_SRC_PATH + "data.in");
 		char[] buf = new char[1024];
 		
 		int hasRead = 0;
