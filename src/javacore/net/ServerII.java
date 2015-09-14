@@ -1,4 +1,4 @@
-package net.java.core;
+package javacore.net;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

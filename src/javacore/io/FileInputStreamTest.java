@@ -1,4 +1,4 @@
-package io.java.core;
+package javacore.io;
 
 import java.io.FileInputStream;
 import java.io.FileReader;

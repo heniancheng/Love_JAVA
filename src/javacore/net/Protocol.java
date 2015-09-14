@@ -1,4 +1,4 @@
-package net.java.core;
+package javacore.net;
 
 public interface Protocol {
 	
